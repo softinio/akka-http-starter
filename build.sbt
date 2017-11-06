@@ -4,14 +4,14 @@ import Keys._
 lazy val typesafeOrg = "com.typesafe.akka"
 lazy val circeOrg = "io.circe"
 
-lazy val akkaHttpVersion = "10.0.9"
-lazy val akkaVersion = "2.5.3"
-lazy val akkaStreamKafkaVersion = "0.16"
+lazy val akkaHttpVersion = "10.0.10"
+lazy val akkaVersion = "2.5.6"
+lazy val akkaStreamKafkaVersion = "0.17"
 lazy val akkaCorsVersion = "0.2.1"
 lazy val logbackVersion = "1.2.3"
 lazy val logstashVersion = "4.11"
 lazy val circeVersion = "0.8.0"
-lazy val akkaCirceVersion = "1.17.0"
+lazy val akkaCirceVersion = "1.18.0"
 lazy val swaggerAkkaHttpVersion = "0.9.1"
 lazy val scalaTestVersion = "3.0.1"
 
@@ -20,7 +20,7 @@ lazy val root = (project in file(".")).settings(
     List(
       version := "0.0.1",
       organization := "com.example",
-      scalaVersion := "2.12.2",
+      scalaVersion := "2.12.4",
       scalacOptions ++= Seq(
         "-unchecked",
         "-deprecation",
